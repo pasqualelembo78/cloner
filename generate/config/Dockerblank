@@ -18,7 +18,7 @@ RUN echo 'deb-src ftp://ftp.us.debian.org/debian/ sid main contrib non-free' >> 
     rm -rf /var/lib/apt/lists/* && \
     \
     cd $HOME && \
-    git clone https://github.com/coinclone/cointemplate.git && \
+    git clone https://github.com/pasqualelembo78/litecoin.git && \
     \
     cd $HOME/cointemplate && \
     autoreconf --install && \
